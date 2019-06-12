@@ -4,11 +4,12 @@
 * ```sudo pip3 install psutil```  
 * ```sudo -H pip3 install --upgrade luma.oled```  
 * ```python3 iic.py```  
+> 注意：树莓派先要打开硬件 IIC 功能 具体操作可以参考：[timor.tech](http://timor.tech/mcu/oled/rpi-ssd1306-python.html)
 ### 加入开机启动
 * 编辑 ```/etc/rc.local``` 文件，需要使用root或sudo
  * ```sudo vim /etc/rc.local```
 * 在 exit 0 前添加 ```python3 /home/pi/iic/iic.py```  
-> 注意：树莓派先要打开硬件 IIC 功能 具体操作可以参考：[timor.tech](http://timor.tech/mcu/oled/rpi-ssd1306-python.html)
-
+* 保存，退出，尝试重启。
+### 其他
 * GitHub：[luma.oled](https://github.com/rm-hull/luma.oled)
 * [Luma.oled 英文文档](https://luma-oled.readthedocs.io/en/latest/intro.html)
