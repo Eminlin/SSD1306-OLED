@@ -3,3 +3,6 @@
 ```sudo apt-get install python-dev python-pip libfreetype6-dev libjpeg-dev build-essential```  
 ```sudo -H pip install --upgrade luma.oled```  
 > 注意：树莓派先要打开硬件 IIC 功能 具体操作可以参考：[timor.tech](http://timor.tech/mcu/oled/rpi-ssd1306-python.html)
+
+* GitHub：[luma.oled](https://github.com/rm-hull/luma.oled)
+* [Luma.oled 英文文档](https://luma-oled.readthedocs.io/en/latest/intro.html)
